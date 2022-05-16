@@ -1,0 +1,84 @@
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+
+
+#header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 80px;
+     background: #e3e6F3;
+     box-shadow: 0 5px 15px rgba(0, 0,0, 0.06);
+     z-index: 999;
+     position: sticky;
+     top:0;
+     bottom: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+ list-style: none;
+ padding: 0 20px;   
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+
+#hero{
+    background-image: url("img/hero4.png");
+    height:90vh;
+    width:100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+#hero h1{
+    color: #088178;
+}
+#hero button{
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 8px 14px 65px;
+    cursor:pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+}
